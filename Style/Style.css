@@ -1,0 +1,131 @@
+*{
+    color: white;
+}
+.backgound-img{
+    position: absolute;
+}
+.clouds, .mountains, .hill{
+    width: 98.9vw;
+    height: 78vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.clouds{
+    background-image: url("../Img/HG.png");
+}
+.mountains{
+    background-image: url("../Img/MG.png");
+    top: 10vw;
+}
+.hill{
+    background-image: url("../Img/VG.png");
+    top: 20vw;
+}
+.filter{
+    width: 98.9vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,0.7232142857142857) 0%, rgba(255,255,255,0) 61%);
+}
+header{
+    height: 150px;
+    width: 98.9vw;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+.logo{
+    text-align: center;
+    font-size: 23px;
+}
+.links{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+.Account img{
+    height: 24px;
+    margin-right: 10px;
+}
+.Account{
+    width: 9%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+.cover-page{
+    width: 98.9vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.title{
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line{
+    height: 2px;
+    width: 60px;
+    background-color: rgb(239, 187, 0);
+}
+.main-title{
+    font-size: 70px;
+}
+.subtitle{
+    width: 200px;
+    display: flex;
+    color: rgb(239, 187, 0);
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px 7px black ;
+    justify-content: space-around;
+}
+.Down-scroll img{
+    height: 17px;
+}
+.Down-scroll{
+    width: 130px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black ;
+    display: flex;
+    justify-content: space-around;
+}
+.Media-info img{
+    height: 18px;
+}
+.Media-info{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 11;
+    padding-left: 25px;
+}
+.Media-info p{
+    writing-mode: vertical-lr;
+}
